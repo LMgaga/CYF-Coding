@@ -1,0 +1,63 @@
+/* =================
+  WRITE YOUR CSS HERE.
+  Check the ⌄ for help with formatting and validating your code.
+  You must write some CSS to complete this challenge.
+   ===================
+*/
+html,
+body {
+  margin: 0 auto;
+  height: 100%;
+  width: 80%;
+  background: lightgrey;
+  vertical-align: middle;
+}
+
+/* don't edit this */
+.jest-lite-report__status--pass {
+  background: var(--color-pass);
+}
+
+.jest-lite-report__errors {
+  display: none;
+}
+
+.c-site-header {
+  float: left;
+}
+
+.subheader {
+  font-size: 16px;
+}
+
+.page-navigation {
+  float: right;
+  margin-right: 10%;
+}
+
+li {
+  list-style-type: none;
+  margin-right: 5px;
+  float: left;
+}
+
+.about {
+  clear: both;
+}
+
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  margin-right: 10px;
+  width: 400px;
+  height: 500px;
+}
+
+.about-image {
+  float: left;
+}
+
+.c-site-footer {
+  clear: left;
+}
