@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CodePen - 4.1</title>
+    <link rel="stylesheet" href="main.css">
+
+</head>
+
+<body>
+    <!-- partial:index.partial.html -->
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Personal WebSite</title>
+        <link rel="stylesheet" href="main.css">
+    </head>
+
+    <body>
+
+        <header class="c-site-header">
+            <h1>Luleka Mgaga <span class="subheader">Beginner Code Your Future</span></h1>
+        </header>
+        <nav class="page-navigation" aria-label="Main Site Links.">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">About Me</a></li>
+            </ul>
+        </nav>
+        <main class="about">
+            <section>
+                <div class="main">
+                    <div class="about-image">
+                        <img src="image/luleka.jpg.jpg">
+                    </div>
+                    <div class="about_text">
+                        <h2 id="about_me">About Me</h2>
+                        <p> My name is Luleka Mgaga. I'm from South Africa. I have lived in UK for 19 years.
+                        <p>I am currently working as IT support Analyst
+                            I've started to look for something where I can put myself 100% and grow like a mushroom.</p>
+                        <p>Somewhere where I can have the freedom and something that I can do with pleasure and purpose.
+                        </p>
+                        <p>This is why I choose coding. A very good friend fond this organization - community Code your
+                            future, and this is where my journey begins.</p>
+                        <br>
+                        <div class="container">
+                            <h2>Leave Us a Comment</h2>
+                            <form>
+                                <textarea id="addcomment" placeholder="Add Your Comment"></textarea>
+                                <div class="btn">
+                                    <input id="submit" type="button" value="Comment">
+                                    <button id="cancel">Cancel</button>
+                                    <div class='comment' id="comments">
+
+                                    </div>
+                                    <br></br>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <script>
+            document.getElementById('submit').addEventListener('click', (event) => {
+                let comments_list = document.getElementById('comments');
+                let new_comment = document.createElement('div');
+                new_comment.innerText = document.getElementById('addcomment').value;
+
+                comments_list.appendChild(new_comment);
+
+            });
+        </script>
+    </body>
+
+    </html>

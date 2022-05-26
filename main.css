@@ -36,9 +36,17 @@ body {
 }
 
 li {
-  list-style-type: none;
-  margin-right: 5px;
+  margin-left: 15px;
   float: left;
+  list-style: none;
+  
+}
+.comment {
+  margin-left: 10px;
+  border: 5px outset rgb(49, 42, 42);
+  background-color: lightblue;
+  text-align: center;
+
 }
 
 .about {
@@ -61,3 +69,5 @@ img {
 .c-site-footer {
   clear: left;
 }
+
+
